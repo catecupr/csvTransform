@@ -1,0 +1,3 @@
+[console_scripts]
+csvTransform = csvTransform.__main__:main
+
