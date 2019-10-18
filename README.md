@@ -1,12 +1,7 @@
 # csvTransform
-Example (1): 
+Example: 
 ```
-csvTransform --f_name=~/Desktop/CSVs/csv_to_transform.csv --owner=joel.ruiz6@upr.edu
-```
-
-Example (2):
-```
-python __main__.py --f_name='/home/catec/Desktop/CSVs/ADM_PLANTA_FISICA.csv' --owner=Nolo@upr.edu
+csvTransform --f_name=~/path/to/csv_to_transform.csv --owner=john.smith6@gmail.com
 ```
 
 ## Program Description

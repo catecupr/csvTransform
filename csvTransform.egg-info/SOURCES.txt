@@ -1,9 +1,0 @@
-README.md
-setup.py
-csvTransform/__init__.py
-csvTransform/__main__.py
-csvTransform.egg-info/PKG-INFO
-csvTransform.egg-info/SOURCES.txt
-csvTransform.egg-info/dependency_links.txt
-csvTransform.egg-info/entry_points.txt
-csvTransform.egg-info/top_level.txt

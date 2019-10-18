@@ -1,16 +1,19 @@
 import pandas as pd
-from Args.args import Args
-from Transform.Transform import Transform
+from .Args.args import Args
+from .Transform.Transform import Transform
 # import Transform.Transform as Transform
 # import Args.args as Args
 
 
-def main(args):
+def main(args=None):
 
-    print('Transforming ....')
+    if args == None:
+        args = Args()
 
     # Read csv and transform it
     csv_data = pd.read_csv(args.path_to_file)
+
+    print('Transforming ...')
     Transform.oracleDB_to_inventariesDB(args, csv_data)
 
     # Re-order columns
@@ -23,6 +26,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    args = Args()
-
-    main(args)
+    main()
