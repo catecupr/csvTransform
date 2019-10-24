@@ -1,12 +1,18 @@
 # csvTransform
-Example: 
-```
-csvTransform --f_name=~/path/to/csv_to_transform.csv --owner=john.smith6@gmail.com
-```
 
 ## Program Description
 
 csvTransform is a program that modifies csv files obtained from the oracle database to match the inventaries database. It is important to run this program on a csv obtained from oracle before drag and dropping it in the dropzone.
+
+## Installation
+```
+pip3 install -e git://github.com/catecupr/csvTransform.git#egg=csvTransform.egg-info
+```
+
+To uninstall run:
+```
+pip3 uninstall csvTransform
+```
 
 ## Usage
 
@@ -14,6 +20,11 @@ csvTransform is a program that modifies csv files obtained from the oracle datab
 
 ```
 csvTransform --f_name={Path to file} [Flags]
+```
+
+Example: 
+```
+csvTransform --f_name=~/path/to/csv_to_transform.csv --owner=john.smith6@gmail.com
 ```
 
 #### Flags and Arguments
