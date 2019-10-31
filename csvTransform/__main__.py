@@ -1,8 +1,6 @@
 import pandas as pd
 from .Args.args import Args
 from .Transform.Transform import Transform
-# import Transform.Transform as Transform
-# import Args.args as Args
 
 
 def main(args=None):
